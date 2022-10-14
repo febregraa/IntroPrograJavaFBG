@@ -13,25 +13,25 @@ public class Profesores {
     public String tutorias;
     public String gradoClases;
     
-    public static void ingresarProfesor (){
+    public void ingresarProfesor (){
     
     }
-    public static void eliminarProfesor (){
+    public void eliminarProfesor (){
     
     }
-    public static void actualizarProfesor (){
+    public void actualizarProfesor (){
     
     }
-    public static void mostrarUnRegistroProf (){
+    public void mostrarUnRegistroProf (){
     
     }
-    public static void mostrarRegistroComeplotProf (){
+    public void mostrarRegistroComeplotProf (){
     
     }
-    public static void mostrarCantidadProfEliminado (){
+    public void mostrarCantidadProfEliminado (){
     
     }
-    public static void cantidadProf (){
+    public void cantidadProf (){
     
     }
     

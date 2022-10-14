@@ -11,23 +11,31 @@ public class Facturas {
     public String IDinstitucion; 
     public int monto;
     public String fecha;
+    public int IVA;
+    public int montFinal;
     
-    public static void ingresarFactura(){
-    
-    }
-    public static void eliminarFactura(){
-    
-    }
-    public static void mostrarRegistroCompletoFacturas(){
+    public void ingresarFactura(){
     
     }
-    public static void mostrarUnRegistroFacturas(){
+    public void eliminarFactura(){
     
     }
-    public static void mostrarCantidadFact(){
+    public void mostrarRegistroCompletoFacturas(){
     
     }
-    public static void mostrarCantidadFactEliminada(){
+    public void mostrarUnRegistroFacturas(){
+    
+    }
+    public void mostrarCantidadFact(){
+    
+    }
+    public void mostrarCantidadFactEliminada(){
+    
+    }
+    public void calcularIVA () {
+    
+    }
+    public void calcularPrecioFinal () {
     
     }
 }

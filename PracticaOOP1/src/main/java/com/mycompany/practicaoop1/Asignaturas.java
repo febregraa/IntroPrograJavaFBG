@@ -8,25 +8,25 @@ public class Asignaturas {
     public int cantExamenes;
     public int cantProyectos;
     
-    public static void ingresarAsignatura(){
+    public void ingresarAsignatura(){
     
     }
-    public static void eliminarAsignatura(){
+    public void eliminarAsignatura(){
     
     }
-    public static void actualizarAsignatura(){
+    public void actualizarAsignatura(){
     
     }
-    public static void mostrarUnRegistroAsignatura(){
+    public void mostrarUnRegistroAsignatura(){
     
     }
-    public static void mostrarRegistroCompletoAsignatura(){
+    public void mostrarRegistroCompletoAsignatura(){
     
     }
-    public static void mostrarCantidadAsigEliminado(){
+    public void mostrarCantidadAsigEliminado(){
     
     }
-    public static void mostrarCantAsignaturas(){
+    public void mostrarCantAsignaturas(){
     
     }
 }

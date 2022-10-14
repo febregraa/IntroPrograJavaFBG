@@ -13,25 +13,25 @@ public class Encargados {
     public String numTelefeno;
     public String Labor;
     
-    public static void ingresarEncargado (){
+    public void ingresarEncargado (){
     
     }
-    public static void eliminarEncargado (){
+    public void eliminarEncargado (){
     
     }
-    public static void actualizarEncargado (){
+    public void actualizarEncargado (){
     
     }
-    public static void mostrarRegistroCompletoEncargado (){
+    public void mostrarRegistroCompletoEncargado (){
     
     }
-    public static void mostrarUnRegistroEncargado (){
+    public void mostrarUnRegistroEncargado (){
     
     }
-    public static void mostrarCantidadEnc (){
+    public void mostrarCantidadEnc (){
     
     }
-    public static void mostrarCantidadEncEliminado (){
+    public void mostrarCantidadEncEliminado (){
     
     }
     

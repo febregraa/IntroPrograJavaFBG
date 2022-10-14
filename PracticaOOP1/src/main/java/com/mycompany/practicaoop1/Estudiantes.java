@@ -1,10 +1,10 @@
 
 package com.mycompany.practicaoop1;
 
-
+import javax.swing.JOptionPane;
 public class Estudiantes {
-    public int IDestudiante;
-    public int IDinstitucion;
+    public String IDestudiante;
+    public String IDinstitucion;
     public String nombreEstud;
     public String apellidosEstu;
     public String ubicacionEstu;
@@ -14,28 +14,33 @@ public class Estudiantes {
     public String sexoEstu;
     public String seccionEstu;
     
-    public static void ingresarEstudiantes(){
+    public void ingresarEstudiantes(){
+        IDestudiante = JOptionPane.showInputDialog("Ingrese la cedula del estudiante: ");
+        IDinstitucion = JOptionPane.showInputDialog("Ingrese el ID de la institucion del estudiante: ");
+        nombreEstud = JOptionPane.showInputDialog("Ingrese el nombre del estudiante: ");
+    }
+    public void mostrarRegistroCompleto (){
+        JOptionPane.showMessageDialog(null,"La cedula del estudiante es: " + IDestudiante);
+        JOptionPane.showMessageDialog(null,"El ID institucional del estudiante es: " + IDinstitucion);
+        JOptionPane.showMessageDialog(null,"El nombre del estudiante es: " + nombreEstud);
+    }
+    public void eliminarEstudiantes (){
+      
+    }
+    public void actualizarEstudiante (){
     
     }
-    public static void eliminarEstudiantes (){
+    public void comprobanteAdecuacion (){
     
     }
-    public static void actualizarEstudiante (){
+    
+    public void mostrarUnRegistro (){
     
     }
-    public static void comprobanteAdecuacion (){
+    public void mostrarCantidadEst (){
     
     }
-    public static void mostrarRegistroCompleto (){
-    
-    }
-    public static void mostrarUnRegistro (){
-    
-    }
-    public static void mostrarCantidadEst (){
-    
-    }
-    public static void mostrarCantidadEstEliminado (){
+    public void mostrarCantidadEstEliminado (){
     
     }
     
