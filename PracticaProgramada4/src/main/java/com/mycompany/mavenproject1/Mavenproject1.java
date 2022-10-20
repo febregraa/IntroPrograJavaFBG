@@ -2,7 +2,7 @@
 package com.mycompany.mavenproject1;
 import javax.swing.JOptionPane;
 public class Mavenproject1 {
-
+//
     public static void main(String[] args) {
         // Dfinicion de variables
         CuentaBancaria cliente1 = new CuentaBancaria();
