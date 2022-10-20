@@ -5,10 +5,11 @@ public class Mavenproject1 {
 //
     public static void main(String[] args) {
         // Dfinicion de variables
-        CuentaBancaria cliente1 = new CuentaBancaria();
+        CuentaBancaria cliente1 = new CuentaBancaria(); // se instancia un objeto
         String ingresarDatos;
         boolean estado;
         estado = true;
+        // Menu
         System.out.println("""
                 1- Ingresar datos
                 2- Mostrar Datos
@@ -16,6 +17,8 @@ public class Mavenproject1 {
                 4- Deposito
                 5- Retiro
                 """);
+        // while donde segun la opcion se realiza un metodo especifico
+        // se repite mientras la persona ingrese "S" o "s".
         while (estado){
             String entradaOpcion = JOptionPane.showInputDialog("Ingrese la opcion que desee");
             int opcion = Integer.parseInt(entradaOpcion);
