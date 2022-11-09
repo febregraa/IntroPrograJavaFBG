@@ -39,6 +39,8 @@ public class Main {
         Facturas factura2 = new Facturas();
         Facturas factura3 = new Facturas();
         MostrarMenu menu = new MostrarMenu();
+
+        // Login a partir de un while que contabilizado hasta 3 intentos max
         while (cont<=3){
             ingresoContrasenia = JOptionPane.showInputDialog("Ingrese la contraseña para ingresar");
             if (ingresoContrasenia.equals(contrasenia1) || ingresoContrasenia.equals(contrasenia2) || ingresoContrasenia.equals(contrasenia3)){
@@ -53,11 +55,13 @@ public class Main {
             }
             cont ++;
         }
-
+        // switch con las respectivas acciones segun la opcion
         if (accesoGarantizado){
             opcion = 1;
+
             while (opcion != 11){ // S de si
                 menu.mostrarMenu();
+                // se utilizo un do while para que el usuario ingrese una opcion correcta, en caso de que este haya digitado una incorrecta fuera de rango
                 do {
                     opcion = Integer.parseInt(menu.mostrarMenu());
                 }while(opcion<1 || opcion>11);

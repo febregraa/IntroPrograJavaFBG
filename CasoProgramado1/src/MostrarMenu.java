@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class MostrarMenu {
+    // Se muestra el menu y se solicita la opcion
     public String mostrarMenu(){
         String opcion = JOptionPane.showInputDialog("""
                         Opciones:
@@ -21,5 +22,6 @@ public class MostrarMenu {
                         11- Salir
                         """);
         return opcion;
+        //se retorna la opcion escogida
     }
 }
